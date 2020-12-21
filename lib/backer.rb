@@ -1,8 +1,9 @@
 class Backer 
+  attr_accessor :name 
   
   
   def new 
-    backed_projects.new = self.new
+    backer = self.new
   end
   
   def backed_projects
