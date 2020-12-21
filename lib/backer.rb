@@ -3,7 +3,7 @@ class Backer
   
   
   def new 
-    backer = self.new
+    backer = Backer.new
   end
   
   def backed_projects
