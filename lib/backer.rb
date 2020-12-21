@@ -1,7 +1,8 @@
 class Backer 
   
-  def initialize
-    @backed_projects = []
+  
+  def new 
+    backed_projects.new = self.new
   end
   
   def backed_projects
